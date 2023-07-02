@@ -1,0 +1,255 @@
+.ant043_contact-studio_contact_form_area {
+    padding: 50px 0;
+    background: #fff;
+}
+
+.ant043_contact-studio_contact_form {
+    padding: 43px 20px 30px 30px;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.11);
+    margin-right: 15px;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .ant043_contact-studio_contact_form {
+        margin-right: 0px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .ant043_contact-studio_contact_form {
+        margin-right: 0px;
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+    .ant043_contact-studio_contact_form {
+        margin-right: 0px;
+        padding: 43px 15px 30px;
+    }
+}
+
+.ant043_contact-studio_contact_form h2 {
+    margin-bottom: 50px;
+    font-weight: 400;
+}
+
+.ant043_contact-studio_contact_form input[type="submit"] {
+    background: #1089ff !important;
+    color: #fff;
+    border-radius: 3px;
+    padding: 10px 20px;
+    width: 160px;
+    font-size: 15px;
+    font-weight: 700;
+    margin-top: 7px;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .ant043_contact-studio_contact_form input[type="submit"] {
+        width: 150px;
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+    .ant043_contact-studio_contact_form input[type="submit"] {
+        margin-top: 0px;
+    }
+}
+
+.ant043_contact-studio_contact_form input[type="submit"]:hover {
+    background: #373737 !important;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+    .ant043_contact-studio_contact_form .ant043_contact-ml18 {
+        margin-left: 0px;
+    }
+}
+
+.ant043_contact-studio_contact_address {
+    color: #fff;
+    margin-left: 55px;
+    padding: 40px;
+    background: #1089ff;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .ant043_contact-studio_contact_address {
+        margin-left: 25px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .ant043_contact-studio_contact_address {
+        margin-left: 0px;
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+    .ant043_contact-studio_contact_address {
+        margin-left: 0;
+        margin-top: 60px;
+    }
+}
+
+.ant043_contact-studio_contact_address h3 {
+    margin-bottom: 50px;
+    color: #fff;
+    font-weight: 400;
+}
+
+.ant043_contact-studio_contact_address .ant043_contact-single_contact {
+    overflow: hidden;
+    margin-bottom: 24px;
+}
+
+.ant043_contact-studio_contact_address .ant043_contact-single_contact a {
+    color: #fff;
+    display: block;
+    float: left;
+}
+
+.ant043_contact-studio_contact_address .ant043_contact-single_contact a i {
+    font-size: 24px;
+    margin-top: 5px;
+}
+
+.ant043_contact-studio_contact_address .ant043_contact-single_contact span {
+    display: block;
+    padding-left: 47px;
+}
+
+.ant043_contact-studio_contact_address .ant043_contact-team_social_icon {
+    margin-bottom: 91px;
+    margin-top: 33px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .ant043_contact-studio_contact_address .ant043_contact-team_social_icon {
+        margin-bottom: 77px;
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+    .ant043_contact-studio_contact_address .ant043_contact-team_social_icon {
+        margin-bottom: 40px;
+    }
+}
+
+#my_location {
+    height: 350px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    #my_location {
+        height: 250px;
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+    #my_location {
+        height: 230px;
+    }
+}
+
+.ant043_contact-team_social_icon a {
+    background: #fff;
+    border-radius: 50px;
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+    margin-top: 25px;
+    text-align: center;
+    width: 40px;
+    color: #333333;
+    font-size: 15px;
+    margin: 0px 3px;
+    box-shadow: 1px 3px 4px rgba(0, 0, 0, 0.2);
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+}
+
+.ant043_contact-team_social_icon a:hover {
+    background: #1089ff;
+}
+
+.ant043_contact-team_social_icon a i {
+    line-height: inherit;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+}
+
+.ant043_contact-team_social_icon a:hover i {
+    transform: rotate(360deg);
+}
+
+.ant043_contact-common_input input,
+.ant043_contact-common_input select,
+.ant043_contact-common_input textarea {
+    background: #f9f9f9;
+    border: none;
+    height: 45px;
+    margin-bottom: 20px;
+    padding: 10px 17px;
+    width: 48%;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+
+    .ant043_contact-common_input input,
+    .ant043_contact-common_input select,
+    .ant043_contact-common_input textarea {
+        width: 47%;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+    .ant043_contact-common_input input,
+    .ant043_contact-common_input select,
+    .ant043_contact-common_input textarea {
+        width: 47%;
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+
+    .ant043_contact-common_input input,
+    .ant043_contact-common_input select,
+    .ant043_contact-common_input textarea {
+        width: 100%;
+    }
+}
+
+.ant043_contact-common_input input:focus,
+.ant043_contact-common_input select:focus,
+.ant043_contact-common_input textarea:focus {
+    border: 1px solid #1089ff;
+}
+
+.ant043_contact-common_input textarea {
+    width: 99%;
+    height: 151px;
+    padding-top: 14px;
+    resize: none;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .ant043_contact-common_input textarea {
+        width: 98%;
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+    .ant043_contact-common_input textarea {
+        width: 100%;
+    }
+}
+
+.ant043_contact-ml18 {
+    margin-left: 18px; }

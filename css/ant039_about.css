@@ -1,0 +1,151 @@
+.ant039_about-studio_who_we_area {
+    padding: 50px 0;
+    background: #fff;
+}
+
+.ant039_about-studio_who_we_area h3 {
+    font-weight: 400;
+    margin-bottom: 26px;
+    font-size: 21px;
+    position: relative;
+}
+
+.ant039_about-studio_about_img {
+    position: relative;
+    overflow: hidden;
+    margin-left: 15px;
+    margin-right: 70px;
+}
+
+.ant039_about-studio_about_img:after {
+    background: #4daefe;
+    background: -moz-linear-gradient(left, #4daefe 53%, #01dce8 100%);
+    background: -webkit-linear-gradient(left, #4daefe 53%, #01dce8 100%);
+    background: linear-gradient(to right, #4daefe 53%, #01dce8 100%);
+}
+
+.ant039_about-studio_about_img i {
+    line-height: inherit;
+}
+
+.ant039_about-studio_about_img img {
+    width: 100%;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .ant039_about-studio_about_img {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .ant039_about-studio_about_img {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+    .ant039_about-studio_about_img {
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 30px;
+    }
+}
+
+.ant039_about-studio_about_img:after {
+    position: absolute;
+    content: "";
+    opacity: .92;
+    height: 108%;
+    left: auto;
+    opacity: 0.92;
+    right: -127px;
+    top: 54%;
+    transform: rotate(-31deg);
+    width: 115%;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .ant039_about-studio_about_img:after {
+        width: 127%;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .ant039_about-studio_about_img:after {
+        width: 144%;
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+    .ant039_about-studio_about_img:after {
+        right: -110px;
+        top: 45%;
+        width: 126%;
+    }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .ant039_about-studio_about_img:after {
+        right: -205px;
+        width: 127%;
+        transform: rotate(-26deg);
+        width: 163%;
+    }
+}
+
+.ant039_about-studio_about_img span {
+    background: #fff;
+    border-radius: 50px;
+    color: #373737;
+    font-size: 30px;
+    height: 80px;
+    left: 46%;
+    line-height: 80px;
+    position: absolute;
+    text-align: center;
+    top: 45%;
+    width: 80px;
+    z-index: 99;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .ant039_about-studio_about_img span {
+        height: 50px;
+        line-height: 50px;
+        width: 50px;
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+    .ant039_about-studio_about_img span {
+        height: 50px;
+        line-height: 50px;
+        width: 50px;
+    }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .ant039_about-studio_about_img span {
+        left: 48%;
+        top: 48%;
+    }
+}
+
+.ant039_about-about_text1 p {
+    margin-bottom: 26px;
+    color: #8b8b8b;
+    line-height: 1.6;
+}
+
+.ant039_about-studio_who_we_area h3:after {
+    position: absolute;
+    content: '';
+    width: 40px;
+    height: 1px;
+    top: 35px;
+    left: 0;
+    background: #4daefe;
+}

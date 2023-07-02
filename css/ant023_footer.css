@@ -1,0 +1,206 @@
+.ant023_footer-footer-section ul,
+.ant023_footer-footer-section ul li {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+
+.ant023_footer-footer-section a,
+.ant023_footer-footer-section a:hover {
+    text-decoration: none;
+}
+
+.ant023_footer-footer-section input:focus,
+.ant023_footer-footer-section textarea:focus {
+    outline: 0px;
+}
+
+.ant023_footer-footer-section {
+    background: url("../img/ant023_footer/footer-bg.png") no-repeat scroll 0 0 / cover rgba(0, 0, 0, 0);
+    padding: 150px 0;
+    margin-bottom: -20px;
+    background-position: center;
+}
+
+.ant023_footer-footer-address ul li span {
+    color: #1089ff;
+    font-size: 20px;
+    left: 0;
+    margin-top: 4px;
+    position: absolute;
+}
+
+.ant023_footer-footer-section .ant023_footer-footer-address li {
+    color: #464545;
+    font-size: 14px;
+    margin-bottom: 20px;
+    padding-left: 30px;
+    position: relative;
+    -webkit-transition: .3s all;
+    -o-transition: .3s all;
+    transition: .3s all;
+}
+
+.ant023_footer-footer-address {
+    padding-right: 80px;
+    margin-top: 30px;
+}
+
+.ant023_footer-footer-section .ant023_footer-footer-address li:hover {
+    color: #1089ff;
+}
+
+.ant023_footer-footer-head h3 {
+    color: #1089ff;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+
+.ant023_footer-footer-menu a {
+    color: #464545;
+    display: block;
+    font-size: 14px;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+    -webkit-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+
+.ant023_footer-footer-menu a:hover {
+    color: #1089ff;
+    margin-left: 5px;
+}
+
+.ant023_footer-footer-sub {
+    margin-left: 50px;
+}
+
+.ant023_footer-subscribe-box .ant023_footer-btn {
+    font-weight: 600;
+    text-transform: capitalize;
+    width: 150px;
+    height: 50px;
+    line-height: 46px;
+    padding: 0 30px;
+    color: #464545;
+}
+
+.ant023_footer-subscribe-box .ant023_footer-btn:hover {
+    color: #fff;
+}
+
+.ant023_footer-subscribe-box input {
+    border: 0 none;
+    border-radius: 5px;
+    height: 50px;
+    margin-bottom: 20px;
+    width: 270px;
+    padding-left: 20px;
+}
+
+.ant023_footer-social-media li {
+    display: inline-block;
+    list-style: outside none none;
+}
+
+.ant023_footer-social-media a {
+    border: 1px solid #1089ff;
+    border-radius: 50%;
+    color: #1089ff;
+    display: block;
+    font-size: 16px;
+    height: 33px;
+    line-height: 33px;
+    margin-right: 20px;
+    text-align: center;
+    -webkit-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    width: 33px;
+}
+
+.ant023_footer-social-media a>span {
+    line-height: 31px;
+}
+
+.ant023_footer-social-media {
+    margin-top: 25px;
+}
+
+.ant023_footer-social-media a:hover {
+    background: none repeat scroll 0 0 #1089ff;
+    border: 1px solid transparent;
+    color: #fff;
+}
+
+/* Copyright Section */
+
+.ant023_footer-copyright-section {
+    background: #1089ff;
+    padding: 30px 0;
+}
+
+.ant023_footer-copyright a {
+    text-transform: capitalize;
+    color: #fff;
+}
+
+.ant023_footer-copyright a:hover {
+    color: #000;
+}
+
+.ant023_footer-copyright p {
+    color: #fff;
+}
+
+.ant023_footer-btn {
+    background-color: transparent;
+    border: 2px solid #1089ff;
+    ;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 500;
+    height: 60px;
+    line-height: 56px;
+    padding: 0 50px;
+    -webkit-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    color: #000;
+    text-transform: capitalize;
+}
+
+.ant023_footer-btn:hover {
+    background-color: #1089ff;
+    color: #ffffff;
+    -webkit-box-shadow: 0px 10px 35px 0px rgba(89, 90, 255, 0.1);
+    box-shadow: 0px 10px 35px 0px rgba(89, 90, 255, 0.1);
+}
+
+.ant023_footer-btn:focus,
+.ant023_footer-btn:hover {
+    text-decoration: none;
+}
+
+.ant023_footer-btn:hover {
+    color: #fff;
+    border-color: #1089ff;
+}
+
+.ant023_footer-btn:focus,
+button:focus {
+    outline: none !important;
+}
+
+@media only screen and (max-width: 767px) {
+    .ant023_footer-footer-section {
+        padding: 80px 0;
+    }
+
+    .ant023_footer-footer-set {
+        margin-bottom: 50px;
+        margin-left: 50px;
+    }
+}

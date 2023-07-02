@@ -1,0 +1,112 @@
+.ant-section__ant032_cta {
+    padding: 40px 0;
+    background: #1089ff;
+}
+
+.ant032_cta-studio_business_area-btn {
+    text-align: center;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+    .ant032_cta-studio_business_area {
+        padding: 48px 0px;
+    }
+}
+
+.ant032_cta-studio_business_area h2 {
+    color: #fff;
+    margin-top: 11px;
+    margin-left: 8.33333333%;
+    font-size: 21px;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+    .ant032_cta-studio_business_area h2 {
+        font-size: 20px;
+        margin-top: 0px;
+        line-height: 40px;
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .ant032_cta-studio_business_area h2 {
+        font-size: 18px;
+    }
+}
+
+.ant032_cta-studio_business_area .ant032_cta-common_btn {
+    position: relative;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    display: inline-block;
+    width: 150px;
+    height: 45px;
+    text-align: center;
+    line-height: 45px;
+    border-radius: 50px;
+    font-weight: 700;
+    color: #373737;
+    font-size: 15px;
+    background: #fff;
+    overflow: hidden;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    border: 2px solid #fff;
+    color: #fff;
+    line-height: 39px;
+    overflow: hidden;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    background: #1089ff;
+    box-shadow: 1px 6px 4px rgba(0, 0, 0, 0.11);
+    text-decoration: none;
+}
+
+.ant032_cta-studio_business_area .ant032_cta-common_btn:hover {
+    color: #373737;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+    .ant032_cta-studio_business_area .ant032_cta-common_btn {
+        margin: 0 auto;
+        display: block;
+        margin-top: 22px;
+        line-height: 42px;
+    }
+}
+
+.ant032_cta-hvr-bounce-to-right:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #2098D1;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transform-origin: 0 50%;
+    transform-origin: 0 50%;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-duration: .5s;
+    transition-duration: .5s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+
+.ant032_cta-studio_business_area .ant032_cta-hvr-bounce-to-right::before {
+    background: #fff;
+}
+
+.ant032_cta-hvr-bounce-to-right:active:before,
+.ant032_cta-hvr-bounce-to-right:focus:before,
+.ant032_cta-hvr-bounce-to-right:hover:before {
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+    -webkit-transition-timing-function: cubic-bezier(0.52, 1.64, .37, .66);
+    transition-timing-function: cubic-bezier(0.52, 1.64, .37, .66);
+}
